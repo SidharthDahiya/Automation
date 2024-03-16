@@ -1,0 +1,104 @@
+{
+  "id": "c3870fb3-d14b-472d-af74-18fb0852be74",
+  "version": "2.0",
+  "name": "MS-Assessment",
+  "url": "https://mib.gov.in",
+  "tests": [{
+    "id": "21cd5591-3f49-40ac-a13b-8d87a1541554",
+    "name": "Untitled",
+    "commands": [{
+      "id": "07244b01-ddef-4602-a98d-079bfbab3c3d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7213ac2b-540d-4189-bc5f-a1e2ad8dc868",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1223x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f13df2b-1c14-49a5-bccc-ea171665774d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Budget & Schemes",
+      "targets": [
+        ["linkText=Budget & Schemes", "linkText"],
+        ["css=.tb-megamenu-item:nth-child(7) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Budget & Schemes')]", "xpath:link"],
+        ["xpath=//ul[@id='mainmenunav']/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[25]", "xpath:href"],
+        ["xpath=//nav/div/div/div/div/div/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Budget & Schemes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7ffc384-4eec-497b-abef-06ac8f8b0376",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Documents",
+      "targets": [
+        ["linkText=Documents", "linkText"],
+        ["css=.open > .dropdown-toggle", "css:finder"],
+        ["xpath=(//a[contains(text(),'Documents')])[5]", "xpath:link"],
+        ["xpath=//ul[@id='mainmenunav']/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17cbf3a9-12ae-4ec8-91cc-ad5437cc9aaf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Online Reports",
+      "targets": [
+        ["linkText=Online Reports", "linkText"],
+        ["css=.open:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Online Reports')]", "xpath:link"],
+        ["xpath=//div[@id='tb-megamenu-column-8']/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mib.gov.in/documents/online-reoprts')]", "xpath:href"],
+        ["xpath=//li[9]/div/div/div/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Online Reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20853751-8993-4808-8258-d93d5296e8dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.views-row-first > .views-field-field-attached > a",
+      "targets": [
+        ["linkText=Download (244.51 KB)", "linkText"],
+        ["css=.views-row-first > .views-field-field-attached > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download (244.51 KB)')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/div/div/div[2]/div/div[2]/div[2]/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mib.gov.in/sites/default/files/English%20-%20PM%2015%20PP%20January%20to%20March%202022.pdf')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download (244.51 KB) ')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9577",
+      "windowTimeout": 2000
+    }, {
+      "id": "3904c1a2-13cc-4a83-b490-889324b894a4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9577}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fcb3aa6c-3bd8-4244-97a4-e08c34311c7c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["21cd5591-3f49-40ac-a13b-8d87a1541554"]
+  }],
+  "urls": ["https://mib.gov.in/"],
+  "plugins": []
+}
