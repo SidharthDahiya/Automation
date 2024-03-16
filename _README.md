@@ -14,4 +14,4 @@ To ensure accuracy and reproducibility, a test scenario was recorded using Selen
 The recorded Selenium IDE test automation (Test_run.side) can be executed using the Selenium side runner via the command line. This verifies that the automation works as expected.
 
 4. Uploaded to GitHub:
-Both the Python automation script (Python_Automation.py) and the recorded Selenium IDE test automation (Test_run.side file) have been uploaded to a GitHub repository for accessibility and assessment.
+Both the Python automation script (Python_Automation.py) and the recorded Selenium IDE test automation (Test_run.side) have been uploaded to a GitHub repository for accessibility and assessment.
